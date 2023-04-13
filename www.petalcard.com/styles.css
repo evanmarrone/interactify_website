@@ -1,0 +1,28 @@
+.home-hero-animation-image-container {
+    max-width: 50%;
+    overflow: hidden;
+  }
+  .logo {
+    max-width: 250px; /* Adjust this value to your desired size */
+    height: auto;
+  }
+  
+  body {
+    color: rgb(0, 71, 135) !important;
+  }
+.primary-button{
+    background-color: rgb(0, 71, 135);
+    color: #fff;
+  }
+  .nav-menu a {
+    font-size: 20px;
+    color: rgb(0, 71, 135);
+    font-weight: bold;
+    padding-top: 30px;
+  }
+
+.primary-button {
+    background-color: rgb(0, 71, 135) !important;
+    /* color: rgb(0, 71, 135) !important; */
+  }
+  

@@ -1,231 +1,28 @@
-/* General Styles */
-
-body {
-    margin: 0;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #333;
+.home-hero-animation-image-container {
+    max-width: 50%;
+    overflow: hidden;
+  }
+  .logo {
+    max-width: 250px; /* Adjust this value to your desired size */
+    height: auto;
   }
   
-  a {
-    color: #0077cc;
+  body {
+    color: rgb(0, 71, 135) !important;
   }
-  
-  a:hover {
-    color: #005580;
-  }
-  
-  ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  /* Header */
-  
-  header {
-    background-color: #fff;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1;
-  }
-  
-  nav {
-    max-width: 960px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 60px;
-  }
-  
-  nav ul {
-    display: flex;
-  }
-  
-  nav ul li {
-    margin: 0 10px;
-  }
-  
-  nav ul li a {
-    text-decoration: none;
-    font-size: 18px;
-  }
-  
-  /* Main */
-  
-  main {
-    margin-top: 60px;
-  }
-  
-  .hero {
-    background-color: #0077cc;
-    color: #fff;
-    text-align: center;
-    padding: 50px 0;
-  }
-  
-  .hero h1 {
-    font-size: 60px;
-    margin: 0;
-  }
-  
-  .hero h2 {
-    font-size: 36px;
-    margin: 20px 0;
-  }
-  
-  .hero p {
-    font-size: 18px;
-    margin-bottom: 40px;
-  }
-  
-  .button {
-    display: inline-block;
-    background-color: #fff;
-    color: #0077cc;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    font-size: 18px;
-    cursor: pointer;
-  }
-  
-  .button:hover {
-    background-color: #0077cc;
+.primary-button{
+    background-color: rgb(0, 71, 135);
     color: #fff;
   }
-  
-  .features {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 50px 0;
-    text-align: center;
-  }
-  
-  .features h2 {
-    margin: 0 0 40px;
-  }
-  
-  .features li {
-    font-size: 24px;
-    margin-bottom: 20px;
-  }
-  
-  .demo {
-    max-width: 960px;
-    margin: 0 auto;
-    text-align: center;
-    padding: 50px 0;
-  }
-  
-  .demo h2 {
-    margin: 0 0 40px;
-  }
-  
-  .demo iframe {
-    max-width: 100%;
-    height: 400px;
-  }
-  
-  .pricing {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 50px 0;
-    text-align: center;
-  }
-  
-  .pricing h2 {
-    margin: 0 0 40px;
-  }
-  
-  .pricing p {
-    font-size: 24px;
-    margin-bottom: 20px;
-  }
-  
-  .pricing ul {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 40px;
-  }
-  
-  .pricing li {
-    margin: 0 20px;
-    font-size: 24px;
-  }
-  
-  .waitlist {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 50px 0;
-    text-align:
+  .nav-menu a {
+    font-size: 20px;
+    color: rgb(0, 71, 135);
+    font-weight: bold;
+    padding-top: 30px;
   }
 
-/* General styles */
-* {
-  box-sizing: border-box;
-  -webkit-text-size-adjust: 100%;
-  font-family: Inter, sans-serif;
-  font-size: 16px;
-  line-height: 150%;
-  font-weight: 400;
-}
-
-/* Background colors */
-.section-6-benefits {
-  background-color: #161616;
-}
-
-.background-color-grey6 {
-  background-color: #161616;
-}
-
-/* Text colors */
-.text-color-white {
-  color: #ffffff;
-}
-
-/* Padding and margin */
-.padding-vertical-xlarge {
-  padding-top: 64px;
-  padding-bottom: 64px;
-}
-
-.margin-bottom-xlarge {
-  margin-bottom: 64px;
-}
-
-/* Text alignment */
-.text-align-center {
-  text-align: center;
-}
-
-/* Grid layout */
-.display_grid2.large-gap {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-gap: 32px;
-}
-
-/* Benefits wrapper */
-.benefits_wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-/* Headings */
-.heading-grid-feature__competitor {
-  margin-top: 16px;
-  margin-bottom: 8px;
-}
-
-/* Paragraphs */
-.paragraph.human {
-  color: #161616;
-}
+.primary-button {
+    background-color: rgb(0, 71, 135) !important;
+    /* color: rgb(0, 71, 135) !important; */
+  }
+  
